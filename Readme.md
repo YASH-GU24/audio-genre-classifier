@@ -2,14 +2,14 @@
  
 This Demo demonstrates the usage of weaviate img2vec module, Which is a module that converts images to vectors using neural network and then allow us to perform various operations. More information for this module can be found [here](https://weaviate.io/developers/weaviate/current/retriever-vectorizer-modules/img2vec-neural.html) . 
 
-The Dataset used for this example can be found here: https://www.kaggle.com/datasets/yashgupta24/audio-genre-classification \
+The Dataset used for this example can be found [here](https://www.kaggle.com/datasets/yashgupta24/audio-genre-classification) \
 It is data of spectrogram of audios of 10 categories namely 'blues','classical','country','disco','hiphop','jazz','metal','pop','reggae','rock'. \
 Note: These spectrograms were created from audios of length 30 seconds, So they will best classify audios with similar length
 
 This example uses HTML,CSS,Js for frontend and Flask for the backend. 
 
 Follow the following steps to reproduce the example 
-1. Download the dataset from https://www.kaggle.com/datasets/yashgupta24/audio-genre-classification and paste it in the directory where add_data.py file exists 
+1. Download the dataset from [here](https://www.kaggle.com/datasets/yashgupta24/audio-genre-classification) and paste it in the directory where add_data.py file exists 
 2. Run the following command to run the weaviate docker file 
 ```bash
 sudo docker-compose up -d
